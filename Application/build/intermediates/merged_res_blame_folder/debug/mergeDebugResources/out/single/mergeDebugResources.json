@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/drawable-xxhdpi_ic_content_picture.png.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/drawable-xxhdpi/ic_content_picture.png"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/drawable-xhdpi_ic_content_picture.png.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/drawable-xhdpi/ic_content_picture.png"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.android.wearable.datalayer.Application-pngs-45:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/drawable-mdpi_ic_content_picture.png.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/drawable-mdpi/ic_content_picture.png"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/drawable-hdpi_ic_content_picture.png.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/drawable-hdpi/ic_content_picture.png"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.datalayer.Application-debug-49:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.android.wearable.datalayer.Application-main-51:/mipmap-xhdpi/ic_launcher_round.webp"
+    }
+]
