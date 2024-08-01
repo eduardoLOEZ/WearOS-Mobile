@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.wearable.datalayer.Wearable-mergeDebugResources-65:/values-en-rIE/values-en-rIE.xml",
+            "outputFile": "com.example.android.wearable.datalayer.Wearable-mergeDebugResources-72:/values-en-rIE/values-en-rIE.xml",
             "map": [
                 {
-                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/bec44c8858ea4e6d23f5facf296e9913/transformed/jetified-horologist-composables-0.5.28/res/values-en-rIE/values-en-rIE.xml",
+                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/1f9ed8fb6e93fedc92341b333ef79322/transformed/jetified-horologist-composables-0.5.28/res/values-en-rIE/values-en-rIE.xml",
                     "from": {
                         "startLines": "2,6,10,14,15,16,17,18,19,20,21,22,23,24,25,26",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

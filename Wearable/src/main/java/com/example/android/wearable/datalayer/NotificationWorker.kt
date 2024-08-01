@@ -37,7 +37,6 @@ class NotificationWorker(context: Context, params: WorkerParameters) : Worker(co
         "Cambio de Estación: Fotografiar el mismo lugar durante las diferentes estaciones del año para mostrar cómo cambia con el tiempo."
     )
 
-
     override fun doWork(): Result {
         sendNotification()
         scheduleNextNotification()
@@ -54,10 +53,11 @@ class NotificationWorker(context: Context, params: WorkerParameters) : Worker(co
             val notificationId = System.currentTimeMillis().toInt()
 
             val builder = NotificationCompat.Builder(applicationContext, "CHALLENGE_CHANNEL")
-                .setSmallIcon(R.drawable.ic_launcher)
+                .setSmallIcon(R.drawable.ic_launcher_foreground)  // Asegúrate de tener este recurso en tu proyecto
                 .setContentTitle("New Challenge")
                 .setContentText(randomChallenge)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
+                .setGroup("CHALLENGE_GROUP")
 
             with(NotificationManagerCompat.from(applicationContext)) {
                 notify(notificationId, builder.build())

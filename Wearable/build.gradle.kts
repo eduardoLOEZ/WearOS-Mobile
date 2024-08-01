@@ -123,6 +123,9 @@ dependencies {
     implementation(libs.work.runtime)
     implementation(libs.work.rxjava3)
 
+    implementation(libs.core.ktx)
+    implementation(libs.work.runtime.ktx)
+
 
 
     // Testing

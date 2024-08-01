@@ -1,509 +1,776 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-72:12
-INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-72:12
-INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-72:12
-INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-72:12
-MERGED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bec44c8858ea4e6d23f5facf296e9913/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.android.horologist:horologist-compose-material:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/11a2c1569cc459555092d9cd13021bf6/transformed/jetified-horologist-compose-material-0.5.28/AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.android.horologist:horologist-compose-layout:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/62eb616575f1855087bd85df49ddf831/transformed/jetified-horologist-compose-layout-0.5.28/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.wear.compose:compose-navigation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4e965c330ec2808213af69faf2294527/transformed/jetified-compose-navigation-1.3.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.wear.compose:compose-material-core:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4e78a952be8347f43c0c3b592122508b/transformed/jetified-compose-material-core-1.3.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.wear.compose:compose-foundation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/26e0f985e923e4cac72d487b1cfe2d57/transformed/jetified-compose-foundation-1.3.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.wear.compose:compose-material:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eebbb5fa396814c4227730f76251b3a3/transformed/jetified-compose-material-1.3.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.wear.compose:compose-ui-tooling:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f1ba43c6ca57b4f6295345198a9477ff/transformed/jetified-compose-ui-tooling-1.3.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/17313e9747de44dcb563dec26f113f8f/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a7c057db788180d9906e0a2f6b659ee1/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4e6c5d5bcf8afdcb735e365ae5f01a8d/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7470fa9bd56ba1789ea3cf7d6bbd3dcc/transformed/jetified-navigation-compose-2.6.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/04b3f585a2f22bec8078cba5ac7cd277/transformed/navigation-common-2.6.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/25bff53f8909d0a03a73211961b775e3/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/04eb04779f70a6fc1b985e3160d59e8a/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/73635ac063d5ab444385982e2a5b159f/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/99c81817307fa750b366a7a5ddb7afe9/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eb3f53edf0080c1bbaf3b11e79c01254/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f4b05398d0761f0619782dd53750d764/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-wearable:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d651641be6ab002e80b73c92deddd9b6/transformed/jetified-play-services-wearable-18.2.0/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.paging:paging-compose:3.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/702b663a78bafb5e89e388bcf427221e/transformed/jetified-paging-compose-3.2.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.horologist:horologist-images-base:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9b1eff3323a3f05da2b798e599bc075c/transformed/jetified-horologist-images-base-0.5.28/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/35e5608325571301cb9b728a408cb756/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/812754fa5a2d1a2a228b9bcc270a0996/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bb8f0a3bb051296fa86b89461de16a9e/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/07ff1e534e97ed89f967ab652e8b97ad/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b79162f116b008ea4c00d6ec4e369956/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b1c4f0b4b6db630622cecc19578a3873/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/94f15aa08484cde07bf249728497b14e/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a469b4da5707dccef123b33e7442687f/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1292b857dbcf5b52e1093c8a98a34cd6/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/016f2092e64d85d49e9e02fea41fe155/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e6af06c2c222d5c840c1e5263182936f/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6bd13751b78888f2fbb4fb34bc4e5679/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.fragment:fragment:1.2.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/5c4f914c987df2d5586e68e38c4c9e7e/transformed/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00e97662f8fdaa725e71a9bcb4632c4c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d2a7deccbaaf3c4957c8f140bbcda9f8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/402c49f62811d1b26371790dea0bec3f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9c88ec78411293fa51fc6b31b494da89/transformed/jetified-lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d7593a9bc6fc192d13ea610b3b3888cf/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/99a4780e116a14a19918dc955a816490/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d59a4b27456ec07568b302b5c64d4404/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8bbf9f812c9186830db5f6410c964424/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a7ccf641267ec6c1ec756e3dfd37f270/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/76b040f16e0553b71f2ca6373cb30955/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/76007dc02026662602d48574ef805830/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/842b64a174063f38c9c955691752ed0c/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1123d7d870c7b58da5391d1d85d24354/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1fb7fcacb9efc2f3623c8e0f4681b5f3/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/faf87378a7fdefd890ddd3d21b2a64be/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/31713b923ec5456e029cd8d2157c0499/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/02a78988258983f849a58f4b58b62c7b/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cefb9e43ab22e42a6a1a0f47e0c86341/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/233c97e3b78f7a385b6e9d0786922b27/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:2:1-5:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/35860afad52f999a8b6ba9963ffe883c/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b0461f96b28a40e762546efae50b8b93/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eae80ea35cd3f74bdf42742cf39fa42a/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/61141b8a1ee9d5ef79f5d1c31512eaff/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/5b534b56623c340d9bae41b39edbb5a0/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8f955a3a9e5be8b4f30e4832b7698b6a/transformed/jetified-activity-1.9.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-compose:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2375efdb026e10b660c797ec1ce6d462/transformed/jetified-activity-compose-1.9.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-ktx:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3a6199a984b312ff61238689ca64cd3b/transformed/jetified-activity-ktx-1.9.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8244bbd2a7682719629fa6a754b953a6/transformed/jetified-lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.wear:wear-tooling-preview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/0a8c8196f9447a66d8b3e79d1f34ea43/transformed/jetified-wear-tooling-preview-1.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c509d64a0bc3d873b0580fd5f0d968f6/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/72a48f7f9e22c672b3fc8c267fef686d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1a8e191ea6088fbfe7eb5561e1a5573d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e7841029315ba9f03ebda9fefe7e040f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/32544a9e56416192947c144b409ca3e0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/5bfcfe5c6d6b840ef45dffe423abbaea/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/61460ea8154457916824f75263ac682f/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f91287115757ebeb20ef69e2b1dcd166/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1ead2a608c3d0d76626993453f5351eb/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:1:1-59:12
+INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:1:1-59:12
+INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:1:1-59:12
+INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:1:1-59:12
+MERGED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1f9ed8fb6e93fedc92341b333ef79322/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.horologist:horologist-compose-material:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a2332c453c36cf19bb341e0c44fb14cf/transformed/jetified-horologist-compose-material-0.5.28/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.horologist:horologist-compose-layout:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ba0cb61310b07d7ddfe3e9766f3255ca/transformed/jetified-horologist-compose-layout-0.5.28/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.wear.compose:compose-navigation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d53aa7f2903c053e1d9f1200492d77e3/transformed/jetified-compose-navigation-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.wear.compose:compose-material-core:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/24949bc35346bcc35a2fca8780fb0fa4/transformed/jetified-compose-material-core-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.wear.compose:compose-foundation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/12365eb64d33df50cabbe19e5e79dd33/transformed/jetified-compose-foundation-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.wear.compose:compose-material:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2b6196ecd58e24824ca393a73cf9304a/transformed/jetified-compose-material-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.wear.compose:compose-ui-tooling:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/edda08d3ee82284964079f00c9ea711d/transformed/jetified-compose-ui-tooling-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4cfe4be79ace56c52000ded6b227e9d8/transformed/work-runtime-ktx-2.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-rxjava3:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56659bfce16154f724f81e00dfbdbe31/transformed/jetified-work-rxjava3-2.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/0e532471eb3419a74b8ec2bf5836b82c/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/784cfdf354eb23c587bc39904f99076b/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e677e679ec3df1cda024894cff8a5d77/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2a54a2a29a512eb6d7d4aaac126928f1/transformed/jetified-navigation-compose-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/995d5a28d34d3d7983a3134cddb3657a/transformed/navigation-common-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1661c6806c2604a2a0412f60b9aa27f2/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cc3228122c5f65caee15d28bdbd8e810/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/beffe335254cea2d19a054ea54ee67b3/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dcef5a9c6519f5570ae8de97e4727bbc/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f4c2598c1276a7993a1c016eedae41bb/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/82a408321eeb6ca23d3931a928a92403/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c521c1eb581cea2fd3e433dbd37cd40e/transformed/jetified-play-services-wearable-18.2.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.paging:paging-compose:3.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3ea8e7644c5fc58548343e9849aa1f5b/transformed/jetified-paging-compose-3.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.horologist:horologist-images-base:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4ff12fb7fc23f8ce2f6f1acbcd1c8887/transformed/jetified-horologist-images-base-0.5.28/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/68e67087de35ce960f8daff487276afe/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/fadde941a78cab4cb765b3ad00631023/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/88a7415e7285c6d1bc4d6ec501768468/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2e55285e77897353d9904d94bae14ced/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/94500110fb9df0a4554870aecef920a6/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a863cc01324daf536b88302cdbac5528/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/226ef0b0ff6f9d5561ede752f5de9c44/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/39c9f2ab15cf1eb9bc9b92c838e119a5/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9b1312548df5c21807e4767a5cdf2327/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2c4e107b4f0e081dc1a970342d522778/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/0b27f6e1e5d710baa544b1dbfec385e1/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ab6270629727eac15d9dad9073a9098a/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3885a83a6c1e3d8f3b9c3f062c7d9c5a/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ad4fe9b4429aa95dad7c3b7822d3f308/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/358e88f65bce4643b2f12b7d290ca825/transformed/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ab31b2570571625a3947efda9d3b89b3/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8d6c98864766a9c792872cfdd2ded116/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6fd5938b32f7a8efca135f7012f6a13e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a9cd8a6574198b5e9a14711343e45169/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ff29a4e837d036d5d297cd12136fbcf7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b1cf17ff1a9bcb6fe8d7677ffc09ae6a/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/df266618be2269ee555110fa56a82a13/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6249fbd7e1116f4cdc3d193f16bd3960/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1ec364ff6cc99f1514e654ed58371dd0/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/09fa0a38fc83411798ae7a88f524087b/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/634556d8d22f991e9886d9bd87befe03/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/aeae10d022c6e93ba95f15b86db6b387/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/23a356ad2fdc8e3bb52afe6eaec13d6d/transformed/jetified-lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a181118d6fe599ec6835a9bfe70b3d30/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/be2d2f690798bfefd0b6dd82c4550199/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1cf6bb80f5784da2a3259589a71d6dc3/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4d0257f295f1bb98b9b131da4944cf5f/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bb1dcd4b95dcd00a2640c55edbfa5691/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8d9955ac243340aa7e5c3590bc8a68c1/transformed/jetified-lifecycle-service-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c85db96cd6eb5c4cdbef2bf5391d1654/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6006bf4c647dceff2caf5eba3f7cc6fa/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a3c74c980fbff7365c0cdfc5772076f8/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cc95a6cff7d1ac8b336c231f14cc1efe/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9fdc59c4dacec2ff666ca1b8d1153cae/transformed/jetified-activity-1.9.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a2d389d3c014051591f2d8edeb51e0f/transformed/jetified-activity-compose-1.9.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/17aeb471f14420f430f01796ec541523/transformed/jetified-activity-ktx-1.9.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/aca774856c0115e933ddfc0adbff1bc6/transformed/jetified-lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.wear:wear-tooling-preview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/35ef540b99f69b1ea7410a188a665f58/transformed/jetified-wear-tooling-preview-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/606cb7c9f2684b25f9474e8f4e3c6674/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6ed6a38b746133d5dc0e95aab1cd3bfb/transformed/sqlite-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eae7f1e543b6902e61008b6511d4d167/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/fb7d42dbc06de97f25a22e157c1e86b0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/124ba0172da7bd22b06f6c5b3002a686/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b42dc4d8e46b457504316e9de2078073/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7f29807aa8859e1cd2080abcfea19393/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2c444bd6f70f8c9ac64abe0d90cf6497/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ce2336e3ec19bcaafd9d2b82713c9f70/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/098670a96944b4a1f2ec7dcdb0b3599b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/91dcb138f114465002338eb62ee60447/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 	package
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:18:5-53
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:2:5-53
 		INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:17:11-69
-uses-feature#android.hardware.type.watch
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:20:5-64
-MERGED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bec44c8858ea4e6d23f5facf296e9913/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:25:5-64
-MERGED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bec44c8858ea4e6d23f5facf296e9913/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:25:5-64
-MERGED from [com.google.android.horologist:horologist-compose-material:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/11a2c1569cc459555092d9cd13021bf6/transformed/jetified-horologist-compose-material-0.5.28/AndroidManifest.xml:25:5-64
-MERGED from [com.google.android.horologist:horologist-compose-material:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/11a2c1569cc459555092d9cd13021bf6/transformed/jetified-horologist-compose-material-0.5.28/AndroidManifest.xml:25:5-64
-MERGED from [com.google.android.horologist:horologist-compose-layout:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/62eb616575f1855087bd85df49ddf831/transformed/jetified-horologist-compose-layout-0.5.28/AndroidManifest.xml:25:5-64
-MERGED from [com.google.android.horologist:horologist-compose-layout:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/62eb616575f1855087bd85df49ddf831/transformed/jetified-horologist-compose-layout-0.5.28/AndroidManifest.xml:25:5-64
-MERGED from [com.google.android.horologist:horologist-images-base:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9b1eff3323a3f05da2b798e599bc075c/transformed/jetified-horologist-images-base-0.5.28/AndroidManifest.xml:25:5-64
-MERGED from [com.google.android.horologist:horologist-images-base:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9b1eff3323a3f05da2b798e599bc075c/transformed/jetified-horologist-images-base-0.5.28/AndroidManifest.xml:25:5-64
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:4:5-68
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:23:5-68
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:23:5-68
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:20:19-61
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:4:22-65
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:5:22-74
+uses-feature#android.hardware.type.watch
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:7:5-64
+MERGED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1f9ed8fb6e93fedc92341b333ef79322/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:25:5-64
+MERGED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1f9ed8fb6e93fedc92341b333ef79322/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:25:5-64
+MERGED from [com.google.android.horologist:horologist-compose-material:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a2332c453c36cf19bb341e0c44fb14cf/transformed/jetified-horologist-compose-material-0.5.28/AndroidManifest.xml:25:5-64
+MERGED from [com.google.android.horologist:horologist-compose-material:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a2332c453c36cf19bb341e0c44fb14cf/transformed/jetified-horologist-compose-material-0.5.28/AndroidManifest.xml:25:5-64
+MERGED from [com.google.android.horologist:horologist-compose-layout:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ba0cb61310b07d7ddfe3e9766f3255ca/transformed/jetified-horologist-compose-layout-0.5.28/AndroidManifest.xml:25:5-64
+MERGED from [com.google.android.horologist:horologist-compose-layout:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ba0cb61310b07d7ddfe3e9766f3255ca/transformed/jetified-horologist-compose-layout-0.5.28/AndroidManifest.xml:25:5-64
+MERGED from [com.google.android.horologist:horologist-images-base:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4ff12fb7fc23f8ce2f6f1acbcd1c8887/transformed/jetified-horologist-images-base-0.5.28/AndroidManifest.xml:25:5-64
+MERGED from [com.google.android.horologist:horologist-images-base:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4ff12fb7fc23f8ce2f6f1acbcd1c8887/transformed/jetified-horologist-images-base-0.5.28/AndroidManifest.xml:25:5-64
+	android:name
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:7:19-61
 application
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:22:5-71:19
-INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:22:5-71:19
-MERGED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-wearable:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d651641be6ab002e80b73c92deddd9b6/transformed/jetified-play-services-wearable-18.2.0/AndroidManifest.xml:6:5-20
-MERGED from [com.google.android.gms:play-services-wearable:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d651641be6ab002e80b73c92deddd9b6/transformed/jetified-play-services-wearable-18.2.0/AndroidManifest.xml:6:5-20
-MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
-MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:23:5-33:19
-MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8bbf9f812c9186830db5f6410c964424/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8bbf9f812c9186830db5f6410c964424/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a7ccf641267ec6c1ec756e3dfd37f270/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a7ccf641267ec6c1ec756e3dfd37f270/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
-MERGED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/72a48f7f9e22c672b3fc8c267fef686d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/72a48f7f9e22c672b3fc8c267fef686d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e7841029315ba9f03ebda9fefe7e040f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e7841029315ba9f03ebda9fefe7e040f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:11:5-58:19
+INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:11:5-58:19
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:28:5-143:19
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c521c1eb581cea2fd3e433dbd37cd40e/transformed/jetified-play-services-wearable-18.2.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c521c1eb581cea2fd3e433dbd37cd40e/transformed/jetified-play-services-wearable-18.2.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3885a83a6c1e3d8f3b9c3f062c7d9c5a/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3885a83a6c1e3d8f3b9c3f062c7d9c5a/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ad4fe9b4429aa95dad7c3b7822d3f308/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ad4fe9b4429aa95dad7c3b7822d3f308/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/fb7d42dbc06de97f25a22e157c1e86b0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/fb7d42dbc06de97f25a22e157c1e86b0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b42dc4d8e46b457504316e9de2078073/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b42dc4d8e46b457504316e9de2078073/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
 		INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:27:9-41
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:16:9-41
 	android:icon
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:26:9-43
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:24:9-35
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:28:9-59
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:17:9-59
 	android:fullBackupOnly
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:25:9-38
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:14:9-38
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:23:9-42
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:12:9-42
 meta-data#com.google.android.wearable.standalone
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:30:9-32:37
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:19:9-21:37
 	android:value
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:32:13-34
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:21:13-34
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:31:13-66
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:20:13-66
 meta-data#com.google.android.gms.version
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:34:9-36:69
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a7ccf641267ec6c1ec756e3dfd37f270/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a7ccf641267ec6c1ec756e3dfd37f270/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ad4fe9b4429aa95dad7c3b7822d3f308/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ad4fe9b4429aa95dad7c3b7822d3f308/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
 	android:value
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:36:13-66
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:35:13-58
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:24:13-58
 service#com.example.android.wearable.datalayer.DataLayerListenerService
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:38:9-56:19
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:27:9-44:19
 	android:exported
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:40:13-36
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:39:13-53
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:28:13-53
 intent-filter#action:name:com.google.android.gms.wearable.DATA_CHANGED+data:host:*+data:pathPrefix:/count+data:scheme:wear
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:41:13-48:29
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:30:13-36:29
 action#com.google.android.gms.wearable.DATA_CHANGED
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:43:17-87
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:31:17-87
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:43:25-84
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:31:25-84
 data
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:44:17-47:45
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:32:17-35:45
 	android:host
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:45:21-37
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:33:21-37
 	android:scheme
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:47:21-42
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:35:21-42
 	android:pathPrefix
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:46:21-48
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:34:21-48
 intent-filter#action:name:com.google.android.gms.wearable.MESSAGE_RECEIVED+data:host:*+data:pathPrefix:/start-activity+data:scheme:wear
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:49:13-55:29
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:37:13-43:29
 action#com.google.android.gms.wearable.MESSAGE_RECEIVED
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:50:17-91
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:38:17-91
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:50:25-88
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:38:25-88
 activity#com.example.android.wearable.datalayer.MainActivity
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:57:9-70:20
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:45:9-57:20
 	android:exported
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:59:13-36
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:47:13-36
 	android:taskAffinity
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:60:13-41
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:48:13-41
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:58:13-41
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:46:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:62:13-65:29
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:49:13-52:29
 action#android.intent.action.MAIN
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:63:17-69
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:50:17-69
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:63:25-66
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:50:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:64:17-77
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:64:27-74
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:51:27-74
 intent-filter#action:name:com.example.android.wearable.datalayer.EXAMPLE+category:name:android.intent.category.DEFAULT
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:66:13-69:29
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:53:13-56:29
 action#com.example.android.wearable.datalayer.EXAMPLE
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:67:17-89
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:54:17-89
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:67:25-86
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:54:25-86
 category#android.intent.category.DEFAULT
-ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:68:17-76
+ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:55:17-76
 	android:name
-		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:68:27-73
+		ADDED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:55:27-73
 uses-sdk
 INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml
 INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml
-MERGED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bec44c8858ea4e6d23f5facf296e9913/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:21:5-23:42
-MERGED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bec44c8858ea4e6d23f5facf296e9913/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:21:5-23:42
-MERGED from [com.google.android.horologist:horologist-compose-material:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/11a2c1569cc459555092d9cd13021bf6/transformed/jetified-horologist-compose-material-0.5.28/AndroidManifest.xml:21:5-23:42
-MERGED from [com.google.android.horologist:horologist-compose-material:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/11a2c1569cc459555092d9cd13021bf6/transformed/jetified-horologist-compose-material-0.5.28/AndroidManifest.xml:21:5-23:42
-MERGED from [com.google.android.horologist:horologist-compose-layout:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/62eb616575f1855087bd85df49ddf831/transformed/jetified-horologist-compose-layout-0.5.28/AndroidManifest.xml:21:5-23:42
-MERGED from [com.google.android.horologist:horologist-compose-layout:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/62eb616575f1855087bd85df49ddf831/transformed/jetified-horologist-compose-layout-0.5.28/AndroidManifest.xml:21:5-23:42
-MERGED from [androidx.wear.compose:compose-navigation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4e965c330ec2808213af69faf2294527/transformed/jetified-compose-navigation-1.3.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear.compose:compose-navigation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4e965c330ec2808213af69faf2294527/transformed/jetified-compose-navigation-1.3.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear.compose:compose-material-core:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4e78a952be8347f43c0c3b592122508b/transformed/jetified-compose-material-core-1.3.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear.compose:compose-material-core:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4e78a952be8347f43c0c3b592122508b/transformed/jetified-compose-material-core-1.3.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear.compose:compose-foundation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/26e0f985e923e4cac72d487b1cfe2d57/transformed/jetified-compose-foundation-1.3.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear.compose:compose-foundation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/26e0f985e923e4cac72d487b1cfe2d57/transformed/jetified-compose-foundation-1.3.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear.compose:compose-material:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eebbb5fa396814c4227730f76251b3a3/transformed/jetified-compose-material-1.3.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear.compose:compose-material:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eebbb5fa396814c4227730f76251b3a3/transformed/jetified-compose-material-1.3.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear.compose:compose-ui-tooling:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f1ba43c6ca57b4f6295345198a9477ff/transformed/jetified-compose-ui-tooling-1.3.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear.compose:compose-ui-tooling:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f1ba43c6ca57b4f6295345198a9477ff/transformed/jetified-compose-ui-tooling-1.3.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/17313e9747de44dcb563dec26f113f8f/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/17313e9747de44dcb563dec26f113f8f/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a7c057db788180d9906e0a2f6b659ee1/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a7c057db788180d9906e0a2f6b659ee1/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4e6c5d5bcf8afdcb735e365ae5f01a8d/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4e6c5d5bcf8afdcb735e365ae5f01a8d/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7470fa9bd56ba1789ea3cf7d6bbd3dcc/transformed/jetified-navigation-compose-2.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7470fa9bd56ba1789ea3cf7d6bbd3dcc/transformed/jetified-navigation-compose-2.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/04b3f585a2f22bec8078cba5ac7cd277/transformed/navigation-common-2.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/04b3f585a2f22bec8078cba5ac7cd277/transformed/navigation-common-2.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/25bff53f8909d0a03a73211961b775e3/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/25bff53f8909d0a03a73211961b775e3/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/04eb04779f70a6fc1b985e3160d59e8a/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/04eb04779f70a6fc1b985e3160d59e8a/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/73635ac063d5ab444385982e2a5b159f/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/73635ac063d5ab444385982e2a5b159f/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/99c81817307fa750b366a7a5ddb7afe9/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/99c81817307fa750b366a7a5ddb7afe9/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eb3f53edf0080c1bbaf3b11e79c01254/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eb3f53edf0080c1bbaf3b11e79c01254/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f4b05398d0761f0619782dd53750d764/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f4b05398d0761f0619782dd53750d764/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-wearable:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d651641be6ab002e80b73c92deddd9b6/transformed/jetified-play-services-wearable-18.2.0/AndroidManifest.xml:4:5-44
-MERGED from [com.google.android.gms:play-services-wearable:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d651641be6ab002e80b73c92deddd9b6/transformed/jetified-play-services-wearable-18.2.0/AndroidManifest.xml:4:5-44
-MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
-MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
-MERGED from [androidx.paging:paging-compose:3.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/702b663a78bafb5e89e388bcf427221e/transformed/jetified-paging-compose-3.2.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.paging:paging-compose:3.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/702b663a78bafb5e89e388bcf427221e/transformed/jetified-paging-compose-3.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.horologist:horologist-images-base:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9b1eff3323a3f05da2b798e599bc075c/transformed/jetified-horologist-images-base-0.5.28/AndroidManifest.xml:21:5-23:42
-MERGED from [com.google.android.horologist:horologist-images-base:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9b1eff3323a3f05da2b798e599bc075c/transformed/jetified-horologist-images-base-0.5.28/AndroidManifest.xml:21:5-23:42
-MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/35e5608325571301cb9b728a408cb756/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/35e5608325571301cb9b728a408cb756/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/812754fa5a2d1a2a228b9bcc270a0996/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/812754fa5a2d1a2a228b9bcc270a0996/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bb8f0a3bb051296fa86b89461de16a9e/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bb8f0a3bb051296fa86b89461de16a9e/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/07ff1e534e97ed89f967ab652e8b97ad/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/07ff1e534e97ed89f967ab652e8b97ad/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b79162f116b008ea4c00d6ec4e369956/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b79162f116b008ea4c00d6ec4e369956/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b1c4f0b4b6db630622cecc19578a3873/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b1c4f0b4b6db630622cecc19578a3873/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/94f15aa08484cde07bf249728497b14e/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/94f15aa08484cde07bf249728497b14e/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a469b4da5707dccef123b33e7442687f/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a469b4da5707dccef123b33e7442687f/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1292b857dbcf5b52e1093c8a98a34cd6/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1292b857dbcf5b52e1093c8a98a34cd6/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/016f2092e64d85d49e9e02fea41fe155/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/016f2092e64d85d49e9e02fea41fe155/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e6af06c2c222d5c840c1e5263182936f/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e6af06c2c222d5c840c1e5263182936f/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6bd13751b78888f2fbb4fb34bc4e5679/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6bd13751b78888f2fbb4fb34bc4e5679/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment:1.2.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/5c4f914c987df2d5586e68e38c4c9e7e/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/5c4f914c987df2d5586e68e38c4c9e7e/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00e97662f8fdaa725e71a9bcb4632c4c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00e97662f8fdaa725e71a9bcb4632c4c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d2a7deccbaaf3c4957c8f140bbcda9f8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d2a7deccbaaf3c4957c8f140bbcda9f8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/402c49f62811d1b26371790dea0bec3f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/402c49f62811d1b26371790dea0bec3f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9c88ec78411293fa51fc6b31b494da89/transformed/jetified-lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9c88ec78411293fa51fc6b31b494da89/transformed/jetified-lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d7593a9bc6fc192d13ea610b3b3888cf/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d7593a9bc6fc192d13ea610b3b3888cf/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/99a4780e116a14a19918dc955a816490/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/99a4780e116a14a19918dc955a816490/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d59a4b27456ec07568b302b5c64d4404/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d59a4b27456ec07568b302b5c64d4404/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8bbf9f812c9186830db5f6410c964424/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
-MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8bbf9f812c9186830db5f6410c964424/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a7ccf641267ec6c1ec756e3dfd37f270/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a7ccf641267ec6c1ec756e3dfd37f270/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/76b040f16e0553b71f2ca6373cb30955/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/76b040f16e0553b71f2ca6373cb30955/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/76007dc02026662602d48574ef805830/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/76007dc02026662602d48574ef805830/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/842b64a174063f38c9c955691752ed0c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/842b64a174063f38c9c955691752ed0c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1123d7d870c7b58da5391d1d85d24354/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1123d7d870c7b58da5391d1d85d24354/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1fb7fcacb9efc2f3623c8e0f4681b5f3/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1fb7fcacb9efc2f3623c8e0f4681b5f3/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/faf87378a7fdefd890ddd3d21b2a64be/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/faf87378a7fdefd890ddd3d21b2a64be/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/31713b923ec5456e029cd8d2157c0499/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/31713b923ec5456e029cd8d2157c0499/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/02a78988258983f849a58f4b58b62c7b/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/02a78988258983f849a58f4b58b62c7b/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cefb9e43ab22e42a6a1a0f47e0c86341/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cefb9e43ab22e42a6a1a0f47e0c86341/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/233c97e3b78f7a385b6e9d0786922b27/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/233c97e3b78f7a385b6e9d0786922b27/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/35860afad52f999a8b6ba9963ffe883c/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/35860afad52f999a8b6ba9963ffe883c/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b0461f96b28a40e762546efae50b8b93/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b0461f96b28a40e762546efae50b8b93/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eae80ea35cd3f74bdf42742cf39fa42a/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eae80ea35cd3f74bdf42742cf39fa42a/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/61141b8a1ee9d5ef79f5d1c31512eaff/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/61141b8a1ee9d5ef79f5d1c31512eaff/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/5b534b56623c340d9bae41b39edbb5a0/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/5b534b56623c340d9bae41b39edbb5a0/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8f955a3a9e5be8b4f30e4832b7698b6a/transformed/jetified-activity-1.9.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8f955a3a9e5be8b4f30e4832b7698b6a/transformed/jetified-activity-1.9.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-compose:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2375efdb026e10b660c797ec1ce6d462/transformed/jetified-activity-compose-1.9.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2375efdb026e10b660c797ec1ce6d462/transformed/jetified-activity-compose-1.9.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3a6199a984b312ff61238689ca64cd3b/transformed/jetified-activity-ktx-1.9.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3a6199a984b312ff61238689ca64cd3b/transformed/jetified-activity-ktx-1.9.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8244bbd2a7682719629fa6a754b953a6/transformed/jetified-lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8244bbd2a7682719629fa6a754b953a6/transformed/jetified-lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear:wear-tooling-preview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/0a8c8196f9447a66d8b3e79d1f34ea43/transformed/jetified-wear-tooling-preview-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.wear:wear-tooling-preview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/0a8c8196f9447a66d8b3e79d1f34ea43/transformed/jetified-wear-tooling-preview-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c509d64a0bc3d873b0580fd5f0d968f6/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c509d64a0bc3d873b0580fd5f0d968f6/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/72a48f7f9e22c672b3fc8c267fef686d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/72a48f7f9e22c672b3fc8c267fef686d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1a8e191ea6088fbfe7eb5561e1a5573d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1a8e191ea6088fbfe7eb5561e1a5573d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e7841029315ba9f03ebda9fefe7e040f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e7841029315ba9f03ebda9fefe7e040f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/32544a9e56416192947c144b409ca3e0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/32544a9e56416192947c144b409ca3e0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/5bfcfe5c6d6b840ef45dffe423abbaea/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/5bfcfe5c6d6b840ef45dffe423abbaea/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/61460ea8154457916824f75263ac682f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/61460ea8154457916824f75263ac682f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f91287115757ebeb20ef69e2b1dcd166/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f91287115757ebeb20ef69e2b1dcd166/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1ead2a608c3d0d76626993453f5351eb/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1ead2a608c3d0d76626993453f5351eb/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1f9ed8fb6e93fedc92341b333ef79322/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1f9ed8fb6e93fedc92341b333ef79322/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.android.horologist:horologist-compose-material:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a2332c453c36cf19bb341e0c44fb14cf/transformed/jetified-horologist-compose-material-0.5.28/AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.android.horologist:horologist-compose-material:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a2332c453c36cf19bb341e0c44fb14cf/transformed/jetified-horologist-compose-material-0.5.28/AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.android.horologist:horologist-compose-layout:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ba0cb61310b07d7ddfe3e9766f3255ca/transformed/jetified-horologist-compose-layout-0.5.28/AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.android.horologist:horologist-compose-layout:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ba0cb61310b07d7ddfe3e9766f3255ca/transformed/jetified-horologist-compose-layout-0.5.28/AndroidManifest.xml:21:5-23:42
+MERGED from [androidx.wear.compose:compose-navigation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d53aa7f2903c053e1d9f1200492d77e3/transformed/jetified-compose-navigation-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-navigation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/d53aa7f2903c053e1d9f1200492d77e3/transformed/jetified-compose-navigation-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-material-core:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/24949bc35346bcc35a2fca8780fb0fa4/transformed/jetified-compose-material-core-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-material-core:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/24949bc35346bcc35a2fca8780fb0fa4/transformed/jetified-compose-material-core-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-foundation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/12365eb64d33df50cabbe19e5e79dd33/transformed/jetified-compose-foundation-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-foundation:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/12365eb64d33df50cabbe19e5e79dd33/transformed/jetified-compose-foundation-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-material:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2b6196ecd58e24824ca393a73cf9304a/transformed/jetified-compose-material-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-material:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2b6196ecd58e24824ca393a73cf9304a/transformed/jetified-compose-material-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-ui-tooling:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/edda08d3ee82284964079f00c9ea711d/transformed/jetified-compose-ui-tooling-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-ui-tooling:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/edda08d3ee82284964079f00c9ea711d/transformed/jetified-compose-ui-tooling-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4cfe4be79ace56c52000ded6b227e9d8/transformed/work-runtime-ktx-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4cfe4be79ace56c52000ded6b227e9d8/transformed/work-runtime-ktx-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-rxjava3:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56659bfce16154f724f81e00dfbdbe31/transformed/jetified-work-rxjava3-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-rxjava3:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56659bfce16154f724f81e00dfbdbe31/transformed/jetified-work-rxjava3-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/0e532471eb3419a74b8ec2bf5836b82c/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/0e532471eb3419a74b8ec2bf5836b82c/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/784cfdf354eb23c587bc39904f99076b/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/784cfdf354eb23c587bc39904f99076b/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e677e679ec3df1cda024894cff8a5d77/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/e677e679ec3df1cda024894cff8a5d77/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2a54a2a29a512eb6d7d4aaac126928f1/transformed/jetified-navigation-compose-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2a54a2a29a512eb6d7d4aaac126928f1/transformed/jetified-navigation-compose-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/995d5a28d34d3d7983a3134cddb3657a/transformed/navigation-common-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/995d5a28d34d3d7983a3134cddb3657a/transformed/navigation-common-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1661c6806c2604a2a0412f60b9aa27f2/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1661c6806c2604a2a0412f60b9aa27f2/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cc3228122c5f65caee15d28bdbd8e810/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cc3228122c5f65caee15d28bdbd8e810/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/beffe335254cea2d19a054ea54ee67b3/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/beffe335254cea2d19a054ea54ee67b3/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dcef5a9c6519f5570ae8de97e4727bbc/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dcef5a9c6519f5570ae8de97e4727bbc/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f4c2598c1276a7993a1c016eedae41bb/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/f4c2598c1276a7993a1c016eedae41bb/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/82a408321eeb6ca23d3931a928a92403/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/82a408321eeb6ca23d3931a928a92403/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c521c1eb581cea2fd3e433dbd37cd40e/transformed/jetified-play-services-wearable-18.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-wearable:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c521c1eb581cea2fd3e433dbd37cd40e/transformed/jetified-play-services-wearable-18.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.paging:paging-compose:3.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3ea8e7644c5fc58548343e9849aa1f5b/transformed/jetified-paging-compose-3.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.paging:paging-compose:3.2.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3ea8e7644c5fc58548343e9849aa1f5b/transformed/jetified-paging-compose-3.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.horologist:horologist-images-base:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4ff12fb7fc23f8ce2f6f1acbcd1c8887/transformed/jetified-horologist-images-base-0.5.28/AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.android.horologist:horologist-images-base:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4ff12fb7fc23f8ce2f6f1acbcd1c8887/transformed/jetified-horologist-images-base-0.5.28/AndroidManifest.xml:21:5-23:42
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/68e67087de35ce960f8daff487276afe/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/68e67087de35ce960f8daff487276afe/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/fadde941a78cab4cb765b3ad00631023/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/fadde941a78cab4cb765b3ad00631023/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/88a7415e7285c6d1bc4d6ec501768468/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/88a7415e7285c6d1bc4d6ec501768468/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2e55285e77897353d9904d94bae14ced/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2e55285e77897353d9904d94bae14ced/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/94500110fb9df0a4554870aecef920a6/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/94500110fb9df0a4554870aecef920a6/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a863cc01324daf536b88302cdbac5528/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a863cc01324daf536b88302cdbac5528/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/226ef0b0ff6f9d5561ede752f5de9c44/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/226ef0b0ff6f9d5561ede752f5de9c44/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/39c9f2ab15cf1eb9bc9b92c838e119a5/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/39c9f2ab15cf1eb9bc9b92c838e119a5/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9b1312548df5c21807e4767a5cdf2327/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9b1312548df5c21807e4767a5cdf2327/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2c4e107b4f0e081dc1a970342d522778/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2c4e107b4f0e081dc1a970342d522778/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/0b27f6e1e5d710baa544b1dbfec385e1/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/0b27f6e1e5d710baa544b1dbfec385e1/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ab6270629727eac15d9dad9073a9098a/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ab6270629727eac15d9dad9073a9098a/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3885a83a6c1e3d8f3b9c3f062c7d9c5a/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/3885a83a6c1e3d8f3b9c3f062c7d9c5a/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ad4fe9b4429aa95dad7c3b7822d3f308/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ad4fe9b4429aa95dad7c3b7822d3f308/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/358e88f65bce4643b2f12b7d290ca825/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/358e88f65bce4643b2f12b7d290ca825/transformed/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ab31b2570571625a3947efda9d3b89b3/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ab31b2570571625a3947efda9d3b89b3/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8d6c98864766a9c792872cfdd2ded116/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8d6c98864766a9c792872cfdd2ded116/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6fd5938b32f7a8efca135f7012f6a13e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6fd5938b32f7a8efca135f7012f6a13e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a9cd8a6574198b5e9a14711343e45169/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a9cd8a6574198b5e9a14711343e45169/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ff29a4e837d036d5d297cd12136fbcf7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ff29a4e837d036d5d297cd12136fbcf7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b1cf17ff1a9bcb6fe8d7677ffc09ae6a/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b1cf17ff1a9bcb6fe8d7677ffc09ae6a/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/df266618be2269ee555110fa56a82a13/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/df266618be2269ee555110fa56a82a13/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6249fbd7e1116f4cdc3d193f16bd3960/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6249fbd7e1116f4cdc3d193f16bd3960/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1ec364ff6cc99f1514e654ed58371dd0/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1ec364ff6cc99f1514e654ed58371dd0/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/09fa0a38fc83411798ae7a88f524087b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/09fa0a38fc83411798ae7a88f524087b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/634556d8d22f991e9886d9bd87befe03/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/634556d8d22f991e9886d9bd87befe03/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/aeae10d022c6e93ba95f15b86db6b387/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/aeae10d022c6e93ba95f15b86db6b387/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/23a356ad2fdc8e3bb52afe6eaec13d6d/transformed/jetified-lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/23a356ad2fdc8e3bb52afe6eaec13d6d/transformed/jetified-lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a181118d6fe599ec6835a9bfe70b3d30/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a181118d6fe599ec6835a9bfe70b3d30/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/be2d2f690798bfefd0b6dd82c4550199/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/be2d2f690798bfefd0b6dd82c4550199/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1cf6bb80f5784da2a3259589a71d6dc3/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1cf6bb80f5784da2a3259589a71d6dc3/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4d0257f295f1bb98b9b131da4944cf5f/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/4d0257f295f1bb98b9b131da4944cf5f/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bb1dcd4b95dcd00a2640c55edbfa5691/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bb1dcd4b95dcd00a2640c55edbfa5691/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8d9955ac243340aa7e5c3590bc8a68c1/transformed/jetified-lifecycle-service-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8d9955ac243340aa7e5c3590bc8a68c1/transformed/jetified-lifecycle-service-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c85db96cd6eb5c4cdbef2bf5391d1654/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/c85db96cd6eb5c4cdbef2bf5391d1654/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6006bf4c647dceff2caf5eba3f7cc6fa/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6006bf4c647dceff2caf5eba3f7cc6fa/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a3c74c980fbff7365c0cdfc5772076f8/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a3c74c980fbff7365c0cdfc5772076f8/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cc95a6cff7d1ac8b336c231f14cc1efe/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cc95a6cff7d1ac8b336c231f14cc1efe/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9fdc59c4dacec2ff666ca1b8d1153cae/transformed/jetified-activity-1.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/9fdc59c4dacec2ff666ca1b8d1153cae/transformed/jetified-activity-1.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a2d389d3c014051591f2d8edeb51e0f/transformed/jetified-activity-compose-1.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a2d389d3c014051591f2d8edeb51e0f/transformed/jetified-activity-compose-1.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/17aeb471f14420f430f01796ec541523/transformed/jetified-activity-ktx-1.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/17aeb471f14420f430f01796ec541523/transformed/jetified-activity-ktx-1.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/aca774856c0115e933ddfc0adbff1bc6/transformed/jetified-lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/aca774856c0115e933ddfc0adbff1bc6/transformed/jetified-lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear:wear-tooling-preview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/35ef540b99f69b1ea7410a188a665f58/transformed/jetified-wear-tooling-preview-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear:wear-tooling-preview:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/35ef540b99f69b1ea7410a188a665f58/transformed/jetified-wear-tooling-preview-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/606cb7c9f2684b25f9474e8f4e3c6674/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/606cb7c9f2684b25f9474e8f4e3c6674/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6ed6a38b746133d5dc0e95aab1cd3bfb/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/6ed6a38b746133d5dc0e95aab1cd3bfb/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eae7f1e543b6902e61008b6511d4d167/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/eae7f1e543b6902e61008b6511d4d167/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/fb7d42dbc06de97f25a22e157c1e86b0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/fb7d42dbc06de97f25a22e157c1e86b0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/124ba0172da7bd22b06f6c5b3002a686/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/124ba0172da7bd22b06f6c5b3002a686/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b42dc4d8e46b457504316e9de2078073/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/b42dc4d8e46b457504316e9de2078073/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7f29807aa8859e1cd2080abcfea19393/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7f29807aa8859e1cd2080abcfea19393/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2c444bd6f70f8c9ac64abe0d90cf6497/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/2c444bd6f70f8c9ac64abe0d90cf6497/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ce2336e3ec19bcaafd9d2b82713c9f70/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/ce2336e3ec19bcaafd9d2b82713c9f70/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/098670a96944b4a1f2ec7dcdb0b3599b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/098670a96944b4a1f2ec7dcdb0b3599b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/91dcb138f114465002338eb62ee60447/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/91dcb138f114465002338eb62ee60447/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml
 	tools:ignore
-		ADDED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/bec44c8858ea4e6d23f5facf296e9913/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:23:9-39
+		ADDED from [com.google.android.horologist:horologist-composables:0.5.28] /Users/eduardoloeza/.gradle/caches/8.9/transforms/1f9ed8fb6e93fedc92341b333ef79322/transformed/jetified-horologist-composables-0.5.28/AndroidManifest.xml:23:9-39
 	android:minSdkVersion
 		INJECTED from /Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml
-uses-library#com.google.android.wearable
-ADDED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:23:9-25:40
-	android:required
-		ADDED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:25:13-37
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:24:13-55
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:5-81
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:22-74
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/72a48f7f9e22c672b3fc8c267fef686d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/72a48f7f9e22c672b3fc8c267fef686d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/fb7d42dbc06de97f25a22e157c1e86b0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/fb7d42dbc06de97f25a22e157c1e86b0/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:28:13-31
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:33:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
-meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
-permission#com.example.android.wearable.datalayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
-uses-permission#com.example.android.wearable.datalayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
-activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
-	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
-	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
-activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:23:9-25:39
-	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:25:13-36
-	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:24:13-63
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
-receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
-	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:45:13-32
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+uses-library#com.google.android.wearable
+ADDED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:24:13-55
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.example.android.wearable.datalayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.android.wearable.datalayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:24:13-63
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.wearable.datalayer.Wearable-mergeDebugResources-65:/values-round-v23/values-round-v23.xml",
+            "outputFile": "com.example.android.wearable.datalayer.Wearable-mergeDebugResources-72:/values-round-v23/values-round-v23.xml",
             "map": [
                 {
-                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/res/values-round-v23/values-round-v23.xml",
+                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/res/values-round-v23/values-round-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

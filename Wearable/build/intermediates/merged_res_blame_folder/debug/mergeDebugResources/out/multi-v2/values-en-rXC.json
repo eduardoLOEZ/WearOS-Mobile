@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.wearable.datalayer.Wearable-mergeDebugResources-65:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.android.wearable.datalayer.Wearable-mergeDebugResources-72:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/61141b8a1ee9d5ef79f5d1c31512eaff/transformed/jetified-ui-release/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/a3c74c980fbff7365c0cdfc5772076f8/transformed/jetified-ui-release/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/07ff1e534e97ed89f967ab652e8b97ad/transformed/jetified-foundation-release/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,243",
-                        "endColumns": "187,186",
-                        "endOffsets": "238,425"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,251,456,657,858,1065,1270,1482",
+                        "endColumns": "195,204,200,200,206,204,211,203",
+                        "endOffsets": "246,451,652,853,1060,1265,1477,1681"
                     },
                     "to": {
-                        "startLines": "30,31",
-                        "startColumns": "4,4",
-                        "startOffsets": "5551,5739",
-                        "endColumns": "187,186",
-                        "endOffsets": "5734,5921"
+                        "startLines": "2,3,4,5,6,7,8,26",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,301,506,707,908,1115,1320,4763",
+                        "endColumns": "195,204,200,200,206,204,211,203",
+                        "endOffsets": "296,501,702,903,1110,1315,1527,4962"
                     }
                 },
                 {
-                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/eduardoloeza/.gradle/caches/8.9/transforms/2e55285e77897353d9904d94bae14ced/transformed/jetified-foundation-release/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,251,456,657,858,1065,1270,1482",
-                        "endColumns": "195,204,200,200,206,204,211,203",
-                        "endOffsets": "246,451,652,853,1060,1265,1477,1681"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,243",
+                        "endColumns": "187,186",
+                        "endOffsets": "238,425"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,26",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,301,506,707,908,1115,1320,4763",
-                        "endColumns": "195,204,200,200,206,204,211,203",
-                        "endOffsets": "296,501,702,903,1110,1315,1527,4962"
+                        "startLines": "30,31",
+                        "startColumns": "4,4",
+                        "startOffsets": "5551,5739",
+                        "endColumns": "187,186",
+                        "endOffsets": "5734,5921"
                     }
                 }
             ]

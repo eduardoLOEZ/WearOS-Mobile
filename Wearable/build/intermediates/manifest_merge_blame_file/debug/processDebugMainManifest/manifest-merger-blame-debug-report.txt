@@ -1,239 +1,434 @@
 1<?xml version="1.0" encoding="utf-8"?>
-2<!--
-3 Copyright (C) 2021 The Android Open Source Project
-4
-5     Licensed under the Apache License, Version 2.0 (the "License");
-6     you may not use this file except in compliance with the License.
-7     You may obtain a copy of the License at
-8
-9          http://www.apache.org/licenses/LICENSE-2.0
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.wearable.datalayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="33" />
 10
-11     Unless required by applicable law or agreed to in writing, software
-12     distributed under the License is distributed on an "AS IS" BASIS,
-13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-14     See the License for the specific language governing permissions and
-15     limitations under the License.
-16-->
-17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-18    package="com.example.android.wearable.datalayer"
-19    android:versionCode="1"
-20    android:versionName="1.0" >
-21
-22    <uses-sdk
-23        android:minSdkVersion="26"
-24        android:targetSdkVersion="33" />
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:4:5-68
+11-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:4:22-65
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:5:5-77
+12-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:5:22-74
+13
+14    <uses-feature android:name="android.hardware.type.watch" />
+14-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:7:5-64
+14-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:7:19-61
+15
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:5-79
+16-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:22-76
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:5-81
+17-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:22-78
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:5-77
+18-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:22-74
+19
+20    <permission
+20-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.android.wearable.datalayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.android.wearable.datalayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
 25
-26    <uses-feature android:name="android.hardware.type.watch" />
-26-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:20:5-64
-26-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:20:19-61
-27
-28    <permission
-28-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
-29        android:name="com.example.android.wearable.datalayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-29-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
-30        android:protectionLevel="signature" />
-30-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
-31
-32    <uses-permission android:name="com.example.android.wearable.datalayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-32-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
-32-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
-33
-34    <application
-34-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:22:5-71:19
-35        android:name="com.example.android.wearable.datalayer.SampleApplication"
-35-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:23:9-42
-36        android:allowBackup="true"
-36-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:24:9-35
-37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-37-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/49b0e37abec99a11a719be341322de1a/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
-38        android:debuggable="true"
-39        android:extractNativeLibs="false"
-40        android:fullBackupOnly="true"
-40-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:25:9-38
-41        android:icon="@mipmap/ic_launcher"
-41-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:26:9-43
-42        android:label="@string/app_name"
-42-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:27:9-41
-43        android:testOnly="true"
-44        android:theme="@android:style/Theme.DeviceDefault" >
-44-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:28:9-59
-45        <meta-data
-45-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:30:9-32:37
-46            android:name="com.google.android.wearable.standalone"
-46-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:31:13-66
-47            android:value="false" />
-47-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:32:13-34
-48        <meta-data
-48-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:34:9-36:69
-49            android:name="com.google.android.gms.version"
-49-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:35:13-58
-50            android:value="@integer/google_play_services_version" />
-50-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:36:13-66
-51
-52        <service
-52-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:38:9-56:19
-53            android:name="com.example.android.wearable.datalayer.DataLayerListenerService"
-53-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:39:13-53
-54            android:exported="true" >
-54-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:40:13-36
+26    <application
+26-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:11:5-58:19
+27        android:name="com.example.android.wearable.datalayer.SampleApplication"
+27-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:12:9-42
+28        android:allowBackup="true"
+28-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:13:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/dc9a39a20e745432755ccf6de5783acc/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupOnly="true"
+32-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:14:9-38
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:15:9-43
+34        android:label="@string/app_name"
+34-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:16:9-41
+35        android:testOnly="true"
+36        android:theme="@android:style/Theme.DeviceDefault" >
+36-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:17:9-59
+37        <meta-data
+37-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:19:9-21:37
+38            android:name="com.google.android.wearable.standalone"
+38-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:20:13-66
+39            android:value="false" />
+39-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:21:13-34
+40        <meta-data
+40-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:23:9-25:69
+41            android:name="com.google.android.gms.version"
+41-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:24:13-58
+42            android:value="@integer/google_play_services_version" />
+42-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:25:13-66
+43
+44        <service
+44-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:27:9-44:19
+45            android:name="com.example.android.wearable.datalayer.DataLayerListenerService"
+45-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:28:13-53
+46            android:exported="true" >
+46-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:29:13-36
+47            <intent-filter>
+47-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:30:13-36:29
+48                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+48-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:31:17-87
+48-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:31:25-84
+49
+50                <data
+50-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:32:17-35:45
+51                    android:host="*"
+51-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:33:21-37
+52                    android:pathPrefix="/count"
+52-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:34:21-48
+53                    android:scheme="wear" />
+53-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:35:21-42
+54            </intent-filter>
 55            <intent-filter>
-55-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:41:13-48:29
-56
-57                <!-- listeners receive events that match the action and data filters -->
-58                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
-58-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:43:17-87
-58-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:43:25-84
-59
-60                <data
-60-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:44:17-47:45
-61                    android:host="*"
-61-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:45:21-37
-62                    android:pathPrefix="/count"
-62-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:46:21-48
-63                    android:scheme="wear" />
-63-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:47:21-42
-64            </intent-filter>
-65            <intent-filter>
-65-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:49:13-55:29
-66                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
-66-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:50:17-91
-66-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:50:25-88
-67
-68                <data
-68-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:44:17-47:45
-69                    android:host="*"
-69-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:45:21-37
-70                    android:pathPrefix="/start-activity"
-70-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:46:21-48
-71                    android:scheme="wear" />
-71-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:47:21-42
-72            </intent-filter>
-73        </service>
-74
-75        <activity
-75-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:57:9-70:20
-76            android:name="com.example.android.wearable.datalayer.MainActivity"
-76-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:58:13-41
-77            android:exported="true"
-77-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:59:13-36
-78            android:taskAffinity=".main" >
-78-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:60:13-41
-79            <intent-filter>
-79-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:62:13-65:29
-80                <action android:name="android.intent.action.MAIN" />
-80-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:63:17-69
-80-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:63:25-66
-81
-82                <category android:name="android.intent.category.LAUNCHER" />
-82-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:64:17-77
-82-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:64:27-74
-83            </intent-filter>
-84            <intent-filter>
-84-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:66:13-69:29
-85                <action android:name="com.example.android.wearable.datalayer.EXAMPLE" />
-85-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:67:17-89
-85-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:67:25-86
-86
-87                <category android:name="android.intent.category.DEFAULT" />
-87-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:68:17-76
-87-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:68:27-73
-88            </intent-filter>
-89        </activity>
-90
-91        <uses-library
-91-->[androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:23:9-25:40
-92            android:name="com.google.android.wearable"
-92-->[androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:24:13-55
-93            android:required="false" />
-93-->[androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7b05775c53c91c3c73c6519581944544/transformed/wear-1.3.0/AndroidManifest.xml:25:13-37
-94
-95        <activity
-95-->[com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
-96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-96-->[com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
-97            android:exported="false"
-97-->[com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
-98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-98-->[com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7a6fe8e8bfb166a494bc8ad5cfaafa91/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
-99
-100        <provider
-100-->[androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-101            android:name="androidx.startup.InitializationProvider"
-101-->[androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
-102            android:authorities="com.example.android.wearable.datalayer.androidx-startup"
-102-->[androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
-103            android:exported="false" >
-103-->[androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
-104            <meta-data
-104-->[androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-105                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-105-->[androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
-106                android:value="androidx.startup" />
-106-->[androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/8a65115827c9295f55caca9fba79ea5a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
-107            <meta-data
-107-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
-108                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-108-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
-109                android:value="androidx.startup" />
-109-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a29562c4990d4c258e949893b4fc1ae4/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
-110            <meta-data
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
-111                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
-112                android:value="androidx.startup" />
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
-113        </provider>
-114
-115        <activity
-115-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
-116            android:name="androidx.compose.ui.tooling.PreviewActivity"
-116-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
-117            android:exported="true" />
-117-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a8c26923b8c7ee9b2152c792e8a101dd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
-118        <activity
-118-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:23:9-25:39
-119            android:name="androidx.activity.ComponentActivity"
-119-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:24:13-63
-120            android:exported="true" />
-120-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/7df645e2b8dac1ad770bd88d2c4aead1/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:25:13-36
-121
-122        <receiver
-122-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
-123            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
-124            android:directBootAware="false"
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
-125            android:enabled="true"
-125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
-126            android:exported="true"
-126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
-127            android:permission="android.permission.DUMP" >
-127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
-128            <intent-filter>
-128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
-129                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
-130            </intent-filter>
-131            <intent-filter>
-131-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
-132                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-132-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-132-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
-133            </intent-filter>
-134            <intent-filter>
-134-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
-135                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
-136            </intent-filter>
-137            <intent-filter>
-137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
-138                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/56b4ffe27ec85890d260b8cdb4d01d84/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+55-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:37:13-43:29
+56                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+56-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:38:17-91
+56-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:38:25-88
+57
+58                <data
+58-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:32:17-35:45
+59                    android:host="*"
+59-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:33:21-37
+60                    android:pathPrefix="/start-activity"
+60-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:34:21-48
+61                    android:scheme="wear" />
+61-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:35:21-42
+62            </intent-filter>
+63        </service>
+64
+65        <activity
+65-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:45:9-57:20
+66            android:name="com.example.android.wearable.datalayer.MainActivity"
+66-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:46:13-41
+67            android:exported="true"
+67-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:47:13-36
+68            android:taskAffinity=".main" >
+68-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:48:13-41
+69            <intent-filter>
+69-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:49:13-52:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:50:17-69
+70-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:50:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:51:17-77
+72-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:51:27-74
+73            </intent-filter>
+74            <intent-filter>
+74-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:53:13-56:29
+75                <action android:name="com.example.android.wearable.datalayer.EXAMPLE" />
+75-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:54:17-89
+75-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:54:25-86
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:55:17-76
+77-->/Users/eduardoloeza/Documents/codigos/proyectos_learning/DataLayer/Wearable/src/main/AndroidManifest.xml:55:27-73
+78            </intent-filter>
+79        </activity>
+80
+81        <provider
+81-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
+83            android:authorities="com.example.android.wearable.datalayer.androidx-startup"
+83-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
+84            android:exported="false" >
+84-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
+85            <meta-data
+85-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
+86                android:name="androidx.work.WorkManagerInitializer"
+86-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
+87                android:value="androidx.startup" />
+87-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/cbf4a199eb0846b7825ffc104f355f08/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/eduardoloeza/.gradle/caches/8.9/transforms/a19bbae3c513eb8026da1581ac03dfbc/transformed/jetified-lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <service
+99-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+100            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+100-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+101            android:directBootAware="false"
+101-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+102            android:enabled="@bool/enable_system_alarm_service_default"
+102-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+103            android:exported="false" />
+103-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+104        <service
+104-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+105            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+105-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+106            android:directBootAware="false"
+106-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+107            android:enabled="@bool/enable_system_job_service_default"
+107-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+108            android:exported="true"
+108-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+109            android:permission="android.permission.BIND_JOB_SERVICE" />
+109-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+110        <service
+110-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+111            android:name="androidx.work.impl.foreground.SystemForegroundService"
+111-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+112            android:directBootAware="false"
+112-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+113            android:enabled="@bool/enable_system_foreground_service_default"
+113-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+114            android:exported="false" />
+114-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+115
+116        <receiver
+116-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+117            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+117-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+118            android:directBootAware="false"
+118-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+119            android:enabled="true"
+119-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+120            android:exported="false" />
+120-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+121        <receiver
+121-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+122            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+122-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+123            android:directBootAware="false"
+123-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+124            android:enabled="false"
+124-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+125            android:exported="false" >
+125-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+126            <intent-filter>
+126-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+127                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+127-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+127-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+128                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+128-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+128-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+129            </intent-filter>
+130        </receiver>
+131        <receiver
+131-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+132            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+132-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+133            android:directBootAware="false"
+133-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+134            android:enabled="false"
+134-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+135            android:exported="false" >
+135-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+136            <intent-filter>
+136-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+137                <action android:name="android.intent.action.BATTERY_OKAY" />
+137-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+137-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+138                <action android:name="android.intent.action.BATTERY_LOW" />
+138-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+138-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
 139            </intent-filter>
 140        </receiver>
-141    </application>
-142
-143</manifest>
+141        <receiver
+141-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+142            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+142-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+143            android:directBootAware="false"
+143-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+144            android:enabled="false"
+144-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+145            android:exported="false" >
+145-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+146            <intent-filter>
+146-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+147                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+147-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+147-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+148                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+148-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+148-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+149            </intent-filter>
+150        </receiver>
+151        <receiver
+151-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+152            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+152-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+153            android:directBootAware="false"
+153-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+154            android:enabled="false"
+154-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+155            android:exported="false" >
+155-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+156            <intent-filter>
+156-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+157                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+157-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+157-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+158            </intent-filter>
+159        </receiver>
+160        <receiver
+160-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+161            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+161-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+162            android:directBootAware="false"
+162-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+163            android:enabled="false"
+163-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+164            android:exported="false" >
+164-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+165            <intent-filter>
+165-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+166                <action android:name="android.intent.action.BOOT_COMPLETED" />
+166-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:117:17-79
+166-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:117:25-76
+167                <action android:name="android.intent.action.TIME_SET" />
+167-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+167-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+168                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+168-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+168-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+169            </intent-filter>
+170        </receiver>
+171        <receiver
+171-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+172            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+172-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+173            android:directBootAware="false"
+173-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+174            android:enabled="@bool/enable_system_alarm_service_default"
+174-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+175            android:exported="false" >
+175-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+176            <intent-filter>
+176-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+177                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+177-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+177-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+178            </intent-filter>
+179        </receiver>
+180        <receiver
+180-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+181            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+181-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+182            android:directBootAware="false"
+182-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+183            android:enabled="true"
+183-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+184            android:exported="true"
+184-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+185            android:permission="android.permission.DUMP" >
+185-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+186            <intent-filter>
+186-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+187                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+187-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+187-->[androidx.work:work-runtime:2.8.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/637c9e609bda085c08eee906a575689c/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+188            </intent-filter>
+189        </receiver>
+190
+191        <activity
+191-->[com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+192            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+192-->[com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+193            android:exported="false"
+193-->[com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+194            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+194-->[com.google.android.gms:play-services-base:18.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/832c0adc97b1c24abc748ac1f1f03b6a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+195
+196        <uses-library
+196-->[androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:23:9-25:40
+197            android:name="com.google.android.wearable"
+197-->[androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:24:13-55
+198            android:required="false" />
+198-->[androidx.wear:wear:1.3.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/328cdaab265169a8ff6b8cb0363acfdf/transformed/wear-1.3.0/AndroidManifest.xml:25:13-37
+199
+200        <activity
+200-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+201            android:name="androidx.compose.ui.tooling.PreviewActivity"
+201-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+202            android:exported="true" />
+202-->[androidx.compose.ui:ui-tooling-android:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/931e8c3b70a6761be64345028f0aac20/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+203        <activity
+203-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:23:9-25:39
+204            android:name="androidx.activity.ComponentActivity"
+204-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:24:13-63
+205            android:exported="true" />
+205-->[androidx.compose.ui:ui-test-manifest:1.6.8] /Users/eduardoloeza/.gradle/caches/8.9/transforms/af849c0244cef805b348256acae842bc/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:25:13-36
+206
+207        <service
+207-->[androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+208            android:name="androidx.room.MultiInstanceInvalidationService"
+208-->[androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+209            android:directBootAware="true"
+209-->[androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+210            android:exported="false" />
+210-->[androidx.room:room-runtime:2.5.0] /Users/eduardoloeza/.gradle/caches/8.9/transforms/00c93bfa9dba5a648cf5fc583c47004e/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+211
+212        <receiver
+212-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+213            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+213-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+214            android:directBootAware="false"
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+215            android:enabled="true"
+215-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+216            android:exported="true"
+216-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+217            android:permission="android.permission.DUMP" >
+217-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+218            <intent-filter>
+218-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+219                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+219-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+219-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+220            </intent-filter>
+221            <intent-filter>
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+222                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+222-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+222-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+223            </intent-filter>
+224            <intent-filter>
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+225                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+225-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+225-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+226            </intent-filter>
+227            <intent-filter>
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+228                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+228-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+228-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/eduardoloeza/.gradle/caches/8.9/transforms/901e76ebc90a666f8b5605dd765f2dd7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+229            </intent-filter>
+230        </receiver>
+231    </application>
+232
+233</manifest>
